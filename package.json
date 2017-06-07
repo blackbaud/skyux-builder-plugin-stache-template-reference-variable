@@ -1,6 +1,6 @@
 {
   "name": "@blackbaud/skyux-builder-plugin-stache-template-reference-variable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A SKY UX Builder plugin that adds a template reference variable to all Stache tags.",
   "main": "index.js",
   "scripts": {
