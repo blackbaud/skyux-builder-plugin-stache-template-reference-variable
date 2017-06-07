@@ -1,0 +1,31 @@
+{
+  "name": "@blackbaud/skyux-builder-plugin-stache-template-reference-variable",
+  "version": "1.0.0",
+  "description": "A SKY UX Builder plugin that adds a template reference variable to all Stache tags.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/prepare-package.js",
+    "coverage": "istanbul cover -x 'src/*.spec.js' --report=html jasmine JASMINE_CONFIG_PATH=jasmine.json",
+    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "test": "npm run lint && npm run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackbaud/skyux-builder-plugin-stache-template-reference-variable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackbaud/skyux-builder-plugin-stache-template-reference-variable/issues"
+  },
+  "homepage": "https://github.com/blackbaud/skyux-builder-plugin-stache-template-reference-variable#readme",
+  "dependencies": {
+    "cheerio": "0.22.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-plugin-standard": "3.0.1",
+    "istanbul": "0.4.5",
+    "jasmine": "2.6.0"
+  }
+}
