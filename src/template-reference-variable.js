@@ -2,7 +2,7 @@ const cheerio = require('cheerio');
 
 const preload = (content, resourcePath) => {
   if (!resourcePath.match(/\.html$/)) {
-    return;
+    return content;
   }
 
   let $ = cheerio.load(content, {
